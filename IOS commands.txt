@@ -1,0 +1,10 @@
+IOS commands
+
+show ip int brief - list of all the ports and interface numbers
+show interface status - brief description, duplex/speed
+show mac address-table - shows the saved mac addresses
+show interface description - shows description
+show mac address-table address ....-....-.... - shows the port where a device is 
+show mac address-table interface ... - shows what is connected to the interface specified
+show cdp neighbors - show what device is connected to a port
+show arp - shows ip addresses and mac addresses of the cached devices

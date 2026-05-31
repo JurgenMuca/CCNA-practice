@@ -1,0 +1,20 @@
+Skill 06 Lesson 02
+
+show ip int brief - list of all the ports and interface numbers
+
+Interface naming convenction 
+	-FA 	- fast ethernet 10/100 Mbps
+	-GI 	- gigabit ethernet 1000 Mbps
+	-TE 	- 10 Gbps
+	
+Stacking:
+	-explains the fa0/1 (the 0 means if there are a few switches stacked, each switch has it's own number fa0/1 is port 1 of switch 1, fa1/1 is port 1 of switch 2 ....)
+
+
+Cam table (finding devices in the network)
+	-show mac address-table - shows the addresses saved on ram
+	-show mac address-table address ....-....-.... - shows the port where a device is 
+	-show mac address-table interface ... - shows what is connected to the interface specified
+
+show interface description - shows description
+

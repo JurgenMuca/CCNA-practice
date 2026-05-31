@@ -1,0 +1,9 @@
+IP addresses
+
+Routers
+	-connect networks
+	-stops broadcasts
+	-default gateways
+	-routing tables
+	-The routes to networks on the internet are maintained in a bgp table.
+

@@ -1,0 +1,17 @@
+Skill 06 Lesson 03
+
+
+HOW A SWITCH SWITCHES
+
+
+ARP 	- address resolution protocol
+	- serves as address cache for each device
+	- if the device doesn't know the address of the destination, and arp request is sent
+	- arp request is broadcast (destination mac: ffff.ffff.ffff)
+	- when the frame reaches the switch, it saves the source MAC and saves it in cam table along with the port it came 		from
+	- then the switch takes the frame and sends it to all of it's other ports
+	- when the frame reaches the destination ip, the host with that ip replies with it's mac and the destination mac
+
+
+
+

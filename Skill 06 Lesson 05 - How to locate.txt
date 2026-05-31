@@ -1,0 +1,9 @@
+Skill 06 Lesson 05 - How to locate devices on a network
+
+On the network first click on a switch (which one doesn't matter)
+
+show arp - to check if the ip or mac address of the targeted device is cached
+if not just ping the ip address and check arp again
+when found
+check which port it is connected to with: show cdp neighbour follow the port on the packet tracer gui to see if the device is directly connected to the switch or if there is another switch in between
+If there is a switch in between repeat the process again
