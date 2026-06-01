@@ -1,0 +1,43 @@
+SKILL 07 LESSON 02
+
+SUBNET MASKS - Definer of networks
+
+*the 255 represents the network, the 0 represents the host on the network
+(First octet)
+Class A: 0-127		-default subnet mask 255.0.0.0
+Class B: 128-191	-default subnet mask 255.255.0.0
+Class C: 192-223	-default subnet mask 255.255.255.0
+
+
+*Subnetting, when a different class of subnetting is applied to another class network
+e.g, 10.1.5.62 with subnet of 255.255.255.0, Class A network with Class C subnet
+
+*We can always reduce the subnet but never extend it, that is a class B network can have a class C subnet but not a class A subnet mask
+
+
+
+
+*To read documentation RFC1918
+
+
+SKILL 07 LESSON 03
+Private and public IP addresses
+
+Private ip range addresses
+
+Class A: 10.0.0.0
+Class B: 172.16.0.0 - 172.31.255.255
+Class C: 192.168.0.0
+
+NAT - network address translation
+
+The router will block, hide and translate private IP addresses to an IP address that works in the internet, that is the IP provided by the ISP, each  private IP is translated to the public IP using the 65536 ports. 
+
+
+
+
+*Broadcast domains,
+
+Subnetting increments (binary powers) reduce overheads (somehow??)
+
+
