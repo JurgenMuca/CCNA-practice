@@ -40,4 +40,5 @@ The router will block, hide and translate private IP addresses to an IP address 
 
 Subnetting increments (binary powers) reduce overheads (somehow??)
 
+CIDR- Classless Inter-Domain Routing, in 192.168.1.1/24 -> the /24 part
 

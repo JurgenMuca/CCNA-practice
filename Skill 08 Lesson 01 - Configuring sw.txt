@@ -1,0 +1,15 @@
+Skill 08 Lesson 01 - Configuring switch interfaces
+
+Duplex 	- How many directions can the data be sent at the same time
+	- half-duplex, walkie-talkie type, Only one side send data at a given moment
+	- full-duplex, both directions can send/receive data at the same time
+
+
+
+VLAN 1 default management vlan
+
+
+switch(config-if)#ip address 192.168.0.2 255.255.255.0
+
+Telnet(remote access a device using ip address)
+telnet <ip>
